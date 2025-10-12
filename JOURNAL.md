@@ -15,3 +15,8 @@ You can view this journal in more detail on **Hack Club Blueprint** [here](https
 Today, I began finding the parts on Aliexpress which I would need for the build. This took a while for me as I had to change the microcontroller many times for features like BLE, low cost and space. In the end I decided to go with an ESP32-S3 SuperMini, MAX4466 and a 3 AA Battery Holder(I already have). Next step is to plan out the wiring. ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY5MSwicHVyIjoiYmxvYl9pZCJ9fQ==--0781852768522c5154de32697f40fbb69652cc7d/image.png)
   
 
+## 10/12/2025 - Changed the mic and planned the wiring  
+
+Today, I realized the MAX4466 wasn’t ideal for my project, so I swapped it out for the INMP441 I2S microphone. After rewiring, I quickly made a clear wiring diagram using Google Slides to keep track of connections. Additionally, while making the wiring diagram I realized that I would have to take out the battery after every use. To solve this issue, I went with idea of making a DIY switch with a wooden clothespin to save cost. The next step is to write firmware code in c++. ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTgyMSwicHVyIjoiYmxvYl9pZCJ9fQ==--da1f916d2525f9143876ad416d2ba74a17a1044c/image.png)
+  
+
