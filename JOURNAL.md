@@ -17,6 +17,6 @@ Today, I began finding the parts on Aliexpress which I would need for the build.
 
 ## 10/12/2025 - Changed the mic and planned the wiring  
 
-Today, I realized the MAX4466 wasn’t ideal for my project, so I swapped it out for the INMP441 I2S microphone. After rewiring, I quickly made a clear wiring diagram using Google Slides to keep track of connections. Additionally, while making the wiring diagram I realized that I would have to take out the battery after every use. To solve this issue, I went with idea of making a DIY switch with a wooden clothespin to save cost. The next step is to write firmware code in c++. ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTgyMSwicHVyIjoiYmxvYl9pZCJ9fQ==--da1f916d2525f9143876ad416d2ba74a17a1044c/image.png)
+Today, I realized the MAX4466 wasn’t ideal for my project, so I swapped it out for the INMP441 I2S microphone. After rewiring, I quickly made a wiring diagram using Google Slides to keep track of connections(kinda messy). Additionally, while making the wiring diagram I realized that I would have to take out the battery after every use. To solve this issue, I went with idea of making a DIY switch with a wooden clothespin to save cost. The next step is to write firmware code in c++. ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTgyMSwicHVyIjoiYmxvYl9pZCJ9fQ==--da1f916d2525f9143876ad416d2ba74a17a1044c/image.png)
   
 
