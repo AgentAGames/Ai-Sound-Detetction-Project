@@ -20,10 +20,3 @@ Today, I came up with the idea of making an AI sound/phrase detection macro. I b
 Today, I realized the MAX4466 wasn’t ideal for my project as it was an analog mic, so I swapped it out for the INMP441 I2S microphone. After rewiring, I quickly made a wiring diagram using Google Slides to keep track of connections(kinda messy). Additionally, while making the wiring diagram I realized that I would have to take out the battery after every use. To solve this issue, I went with idea of making a DIY switch with a wooden clothespin to save cost. The next step is to write firmware code in c++. ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTgyMSwicHVyIjoiYmxvYl9pZCJ9fQ==--da1f916d2525f9143876ad416d2ba74a17a1044c/image.png)
   
 
-## 10/14/2025 - Planned the Wiring  
-
-Today, I first got the bare bones of my code done by creating a function that inputs a key, such as "E," whenever the AI detects a specific phrase. Then, I headed over to Edge Impulse to train the AI model to recognize the phrases I wanted. The website’s navigation was a bit tricky at first, but the tutorial helped me understand what each tab does. My goal is to train the model to recognize 20+ phrases, but so far I have only trained it on three phrases to test the system. Later, I plan to add the remaining phrases. After training the AI model, I exported the file and updated my code so that it points to the same directory as the exported file. I also had to adjust the detection logic in my code to ensure that it correctly triggers the keypress when the model recognizes a phrase. All thats left to do is to organize my repo and submit!
-
-![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjI1OSwicHVyIjoiYmxvYl9pZCJ9fQ==--f3ba84756818be58fcc87c7c1c2c5e6e6529d5c6/image.png)
-  
-
