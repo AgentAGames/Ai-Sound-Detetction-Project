@@ -11,4 +11,4 @@ Later on, I'll most likely adjust the code to also fit my needs such as quickly 
 ### **Recreational Purposes**
 To use this build for your own purposes you can use use the wiring diagram I made however your would most defenietly have to completely change the code. Addtionally, you will also have to train your own AI Model and import it with your code. Personally, I find using Edge Impulse a good tool to train your AI Model as I was able to make it familliarize with 3 phrases in under 15 minutes with the help of the tutorial.
 
-### **Note**: You should also keep in mind how much space (KB) your code requires, since the ESP32 S3 Supermini doesn’t have a large amount of storage.
+### **Note**: Keep in mind how much space (KB) your code requires, since the ESP32 S3 Supermini doesn’t have a large amount of storage.
