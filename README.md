@@ -10,11 +10,11 @@ Later on, I'll most likely adjust the code to also fit my needs such as quickly 
 
 ### **Bill of Materials (BOM)**
 
-| Item Name | Quantity | Base Price (CAD) | Discounted Price (CAD) | Supplier Link | Description |
+| Item Name | Quantity | Base Price (CAD) | Discounted Price (CAD) | Link | Description |
 |-----------|---------|-----------------|------------------------|---------------|-------------|
-| ESP32 S3 Supermini | 1 | 15.49 | 1.64 | [Link](https://www.aliexpress.com/item/1005009437349894.html) | Microcontroller for project |
-| I2S Microphone INMP441 | 1 | 2.89 | 1.64 | [Link](https://www.aliexpress.com/item/1005006740892303.html) | Microphone to detect phrases |
-| Flexible Copper Wire Bundle | 1 | 3.15 | 1.64 | [Link](https://www.aliexpress.com/item/1005006467312913.html) | Wires to connect the two module's pins together |
+| ESP32 S3 Supermini | 1 | 15.49 | 1.64 | [Aliexpress](https://www.aliexpress.com/item/1005009437349894.html) | Microcontroller for project |
+| I2S Microphone INMP441 | 1 | 2.89 | 1.64 | [Aliexpress](https://www.aliexpress.com/item/1005006740892303.html) | Microphone to detect phrases |
+| Flexible Copper Wire Bundle | 1 | 3.15 | 1.64 | [Aliexpress](https://www.aliexpress.com/item/1005006467312913.html) | Wires to connect the two module's pins together |
 ---
 ### **Recreational Purposes**
 To use this build for your own purposes you can use the wiring diagram I made; however, you'll certainly want to be changing the code, unless you're using this for Steal a Brainrot as well. Additionally, you will also have to train your own AI Model and import it with your code. Personally, I find using Edge Impulse a good tool to train your AI Model as I was able to make it familiarize with 3 phrases in under 15 minutes with the help of the tutorial.
