@@ -1,7 +1,8 @@
 Part Name,Quantity,Base Price,Discounted Price,Link,Reason
-ESP32 S3 Supermini,1,$15.49 CAD,$1.64 CAD,Aliexpress,Microcontroller for project
-I2S Microphone INMP441,1,$2.89 CAD,$1.64 CAD,Aliexpress,Microphone to detect phrases
-Flexible Copper Wire Bundle,1,$3.15 CAD,$1.64 CAD,Aliexpress,Wires to connect the two module's pins together
+ESP32 S3 Supermini,1,$15.49 CAD,$1.64 CAD,https://www.aliexpress.com/item/1005009437349894.html,Microcontroller for project
+I2S Microphone INMP441,1,$2.89 CAD,$1.64 CAD,https://www.aliexpress.com/item/1005006740892303.html,Microphone to detect phrases
+Flexible Copper Wire Bundle,1,$3.15 CAD,$1.64 CAD,https://www.aliexpress.com/item/1005006467312913.html,Wires to connect the two module's pins together
 Total: $7.37 CAD (because Aliexpress will only discount one item),,,,,
 
 Note: All parts are CHOICE items so its free shipping,,,,,
+
