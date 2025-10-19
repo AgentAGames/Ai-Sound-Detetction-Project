@@ -4,6 +4,8 @@ This project was inspired to me by my little brother who plays the infamous game
 
 Later on, I'll most likely adjust the code to also fit my needs such as quickly opening up my favourite game, opening YouTube, etc. For now, the AI module is trained to recognize three phrases from Steal a Brainrot, with the code written to press E whenever one of them is detected.
 
+Trained to recognize: Strawberry Elphant, Dragon Canneloni and Garama And Madungdung
+
 ![Alt text](https://uk.moyens.net/wp-content/uploads/2025/07/Unlocking-Secret-Brainrots-Master-Steal-a-Brainrot-Game-Tips.webp.jpeg)
 
 ---
