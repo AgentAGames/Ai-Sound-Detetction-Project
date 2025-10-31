@@ -6,10 +6,6 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **AI Sound Detection Macro**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/421).
-
-
 ## 10/11/2025 - Finding Parts  
 
 Today, I came up with the idea of making an AI sound/phrase detection macro. I began finding the parts on Aliexpress which I would need for the build. This took a while for me as I had to change the microcontroller many times for features like BLE, low cost and space. In the end I decided to go with an ESP32-S3 SuperMini, MAX4466 and a 3 AA Battery Holder(I already have). Next step is to plan out the wiring. ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTY5MSwicHVyIjoiYmxvYl9pZCJ9fQ==--0781852768522c5154de32697f40fbb69652cc7d/image.png)
@@ -24,6 +20,16 @@ Today, I realized the MAX4466 wasn’t ideal for my project as it was an analog 
 
 Today, I first got the bare bones of my code done by creating a function that inputs a key, such as "E," whenever the AI detects a specific phrase. Then, I headed over to Edge Impulse to train the AI model to recognize the phrases I wanted. The website’s navigation was a bit tricky at first, but the tutorial helped me understand what each tab does. My goal is to train the model to recognize 20+ phrases, but so far I have only trained it on three phrases to test the system. Later, I plan to add the remaining phrases. After training the AI model, I exported the file and updated my code so that it points to the same directory as the exported file. I also had to adjust the detection logic in my code to ensure that it correctly triggers the keypress when the model recognizes a phrase.![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjI2MiwicHVyIjoiYmxvYl9pZCJ9fQ==--a7a37b73adacec1c3a163b06ff536c94e0b80ab7/image.png)
 
+
+  
+
+## 10/30/2025 - Got all the parts | Soldered  
+
+After waiting for around 2 weeks, I finally got all of the stuff I ordered. Then I went ahead and began to solder each part. However because my 7$ soldering iron is buns, I had to find some ways to fix the tip as the iron wouldn't be tinned but just have a blob of soldering on one side. After soldering the pins of the modules, I referenced to my wiring diagram as I would start to begin on connecting/soldering the wires to connect everything together.![20251030_154236](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Njc5MywicHVyIjoiYmxvYl9pZCJ9fQ==--c650840dd36e5e81260cf1cec74f3b6740ff82f1/20251030_154236.jpg)
+
+After connecting the wires together, this is what the final product looks like. Very messy....![17618799608067026961044262270889](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjkwMSwicHVyIjoiYmxvYl9pZCJ9fQ==--898fe8ab7ac79513f12a438d9612d510d903c7eb/17618799608067026961044262270889.jpg)
+
+I realized that it would've been much easier if I had connected the wires to the board instead of the pin headers. This was struggle because I didn't have the "helping hands" tool and the components kept slipping. However, I'm still glad that I got this done today so I can work on implementing the code on the weekend!
 
   
 
